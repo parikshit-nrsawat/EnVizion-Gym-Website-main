@@ -1,0 +1,128 @@
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+.page-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #272727;
+  padding: 1.5rem 0;
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 6rem;
+}
+
+.container > *{
+  margin-right: 1.2rem;
+  color: #fff;
+}
+
+.btn-color > *{
+  color: #fff;
+}
+
+.back-icon-btn{
+  border: none;
+  background-color: #fff;
+}
+
+.container button i{
+  font-size: 2rem;
+  
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+}
+
+.container h3:nth-child(6){
+  color: var(--secondary-color);
+}
+
+.container span{
+  color: var(--secondary-color);
+}
+
+.gym-cont{
+  align-items: center;
+  justify-content: center;
+}
+
+.gym-cont h3{
+  font-size: 1rem;
+}
+
+
+.program-heading{
+  margin-bottom: 3rem;
+}
+
+.program-container-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.program-container-grid > *{
+  color: #fff
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all .10s;
+}
+.content:hover{
+  transform: scale(1.1);
+}
+
+.content:nth-child(1){
+  background: url('../images/bodyweight-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(2){
+  background: url('../images/drill-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(3){
+  background: url('../images/glutes-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(4){
+  background: url('../images/power-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(5){
+  background: url('../images/body-shape-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(6){
+  background: url('../images/pilates-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(7){
+  background: url('../images/boxing-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(8){
+  background: url('../images/yoga-beginner-program.jpg') center/cover no-repeat;
+}
+.content:nth-child(9){
+  background: url('../images/yoga-advanced-program.jpg') center/cover no-repeat;
+  grid-column: 2 / 4;
+}
+
+
+.program-container-grid h2{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  background-color: #000;
+  padding: .8rem;
+  border-radius: 2rem;
+}
+
